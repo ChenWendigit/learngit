@@ -27,7 +27,7 @@ int main(int argc,char*argv)
         imshow("video",frame);
 
         if(key == 27) break;
-        if(key == 32)
+        if(key == 115)
         {
             imwrite("./cap.jpg",frame);
             imshow("image",frame);
